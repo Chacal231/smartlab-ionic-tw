@@ -1,7 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* El normalize de Ionic quita el border-style a los <button>;
+   lo restauramos para que border-3 de Tailwind funcione */
+@layer base {
+  button {
+    border-style: solid;
+  }
+}
 :root {
   --ion-color-primary: #0a0a0a;
   --ion-color-primary-rgb: 10, 10, 10;
