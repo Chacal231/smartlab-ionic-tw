@@ -238,7 +238,7 @@ const Home: React.FC = () => {
 
             <div className="relative grid grid-cols-1 items-end gap-10 lg:grid-cols-12">
               {/* Titular monumental: tracking negativo + interlineado cerrado */}
-              <h1 className="font-display text-mega uppercase tracking-crush lg:col-span-7">
+              <h1 className="whitespace-nowrap font-display text-mega uppercase tracking-crush lg:col-span-7 lg:text-[min(12vw,13rem)]">
                 Smart
                 <br />
                 <span className="inline-block -rotate-2 border-3 border-ink bg-acid px-3 shadow-brut-lg">
